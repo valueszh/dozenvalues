@@ -133,10 +133,10 @@
                 "陈旧"
             ],
             "leftvalue": {
-                "name": "Heritage",
+                "name": "遗产",
                 "color": "#9bf122",
                 "icon": "./assets/icons/heritage.svg",
-                "blurb": "传统得分较高的人认为快速变化是有风险的，应该珍视过去。他们倾向于支持宗教、自然和保护文化。"
+                "blurb": "遗产得分较高的人认为快速变化是有风险的，应该珍视过去。他们倾向于支持宗教、自然和保护文化。"
             },
             "rightvalue": {
                 "name": "新颖",
