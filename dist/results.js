@@ -59,12 +59,7 @@ ui.axes.forEach((v, i) => {
         axisLabel = `${ui.resultstext.axis_name} ${v.axisname}: ${tier}`;
     }
     else {
-        if (ui.resultstext.axis_name_no_space) {
-            axisLabel = `${ui.axes[ind].axisname}${ui.resultstext.axis_name}：${tier}`;
-        }
-        else {
-            axisLabel = `${v.axisname} ${ui.resultstext.axis_name}: ${tier}`;
-        }
+        axisLabel = `${v.axisname} ${ui.resultstext.axis_name}: ${tier}`;
     }
     axisLabels.push(axisLabel);
 });
