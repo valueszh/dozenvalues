@@ -66,7 +66,12 @@ function nextQuestion(ansIndex) {
 }
 function loadQuestion() {
     questiontext.textContent = questions[curr].text;
-    questionnumber.textContent = `${ui.quiztext.question} ${(curr + 1)} ${ui.quiztext.of} ${questions.length}`;
+    if (ui.quiztext.five_words) {
+        questionnumber.textContent = `${ui.quiztext.question} ${(curr + 1)} ${ui.quiztext.of} ${questions.length} ${ui.quiztext.fifth_word}`;
+    }
+    else {
+        questionnumber.textContent = `${ui.quiztext.question} ${(curr + 1)} ${ui.quiztext.of} ${questions.length}`;
+    }
 }
 function lastQuestion() {
     curr--;
