@@ -63,7 +63,7 @@ function changedSelection(match) {
                 axisLabel = `${ui.axes[ind].axisname} ${ui.resultstext.axis_name}: ${tier}`;
             }
             else {
-                axisLabel = `${ui.axes[ind].axisname}${ui.resultstext.axis_name}：${tier}`
+                axisLabel = `${ui.axes[ind].axisname}${ui.resultstext.axis_name}：${tier}`;
             }
         }
         canvas.drawBar(ind, colors, stat, axisLabel);
