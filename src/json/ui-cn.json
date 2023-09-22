@@ -254,7 +254,7 @@
         },
         "axis_name": "轴",
         "axis_name_before": false,
-        "axis_name_no_space": true,
+        "axis_name_space": false,
         "version_name": "版本",
         "closest_match": "最接近匹配",
         "next_matches": "次接近匹配"
