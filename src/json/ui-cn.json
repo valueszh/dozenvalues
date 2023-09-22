@@ -208,8 +208,10 @@
             "back_text": "上一题",
             "pagename": "测试"
         },
-        "of": "of",
-        "question": "问题",
+        "of": "题，共",
+        "question": "第",
+        "five_words": true
+        "fifth_word": "题"
         "buttons": [
             {
                 "text": "«",
