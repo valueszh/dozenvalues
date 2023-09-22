@@ -210,6 +210,7 @@
         },
         "of": "of",
         "question": "Question",
+        "five_words": false,
         "buttons": [
             {
                 "text": "«",
