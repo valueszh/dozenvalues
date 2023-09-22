@@ -210,8 +210,8 @@
         },
         "of": "题，共",
         "question": "第",
-        "five_words": true
-        "fifth_word": "题"
+        "five_words": true,
+        "fifth_word": "题",
         "buttons": [
             {
                 "text": "«",
