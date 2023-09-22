@@ -85,7 +85,12 @@ function changedSelection(match: Ideology): void {
         if (ui.resultstext.axis_name_before) {
             axisLabel = `${ui.resultstext.axis_name} ${ui.axes[ind].axisname}: ${tier}`
         } else {
-            axisLabel = `${ui.axes[ind].axisname} ${ui.resultstext.axis_name}: ${tier}`
+            if (ui.resultstext.axis_name_no_space) {
+                axisLabel = `${ui.axes[ind].axisname}${ui.resultstext.axis_name}：${tier}`;
+            }
+            else {
+                axisLabel = `${ui.axes[ind].axisname} ${ui.resultstext.axis_name}: ${tier}`
+            }
         }
         canvas.drawBar(ind, colors, stat, axisLabel)
     })
