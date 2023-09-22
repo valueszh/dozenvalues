@@ -63,7 +63,7 @@ ui.axes.forEach((v, i) => {
             axisLabel = `${v.axisname} ${ui.resultstext.axis_name}: ${tier}`;
         }
         else {
-            axisLabel = `${v.axisname}${ui.resultstext.axis_name}：${tier}`
+            axisLabel = `${v.axisname}${ui.resultstext.axis_name}：${tier}`;
         }
     }
     axisLabels.push(axisLabel);
