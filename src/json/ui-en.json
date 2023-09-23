@@ -296,8 +296,7 @@
         "back_text": "Back",
         "questions_button": "Questions",
         "matches_button": "Matches",
-        "lister_button": "Lister",
-        "built_on": "Built on"
+        "lister_button": "Lister"
     },
     "font": {
         "text_font": "BrandonText",
