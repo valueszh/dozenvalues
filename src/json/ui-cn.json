@@ -297,7 +297,8 @@
         "back_text": "返回",
         "questions_button": "问题",
         "matches_button": "匹配",
-        "lister_button": "列表"
+        "lister_button": "列表",
+        "built_on": "建立于"
     },
     "font": {
         "text_font": "BrandonText",
