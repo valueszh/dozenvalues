@@ -50,6 +50,8 @@ export type Quiztext = {
     buttons: Array<Quizbuttons>;
     of: string;
     question: string;
+    five_words: boolean;
+    fifth_word: string;
     text: Textelm;
 }
 
