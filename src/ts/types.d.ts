@@ -58,7 +58,7 @@ export type Quiztext = {
 export type Resultstext = {
     axis_name: string;
     axis_name_before: boolean;
-    axis_name_no_space: boolean;
+    axis_name_space: boolean;
     version_name: string;
     closest_match: string;
     next_matches: string;
