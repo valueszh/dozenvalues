@@ -50,15 +50,12 @@ export type Quiztext = {
     buttons: Array<Quizbuttons>;
     of: string;
     question: string;
-    five_words: boolean;
-    fifth_word: string;
     text: Textelm;
 }
 
 export type Resultstext = {
     axis_name: string;
     axis_name_before: boolean;
-    axis_name_space: boolean;
     version_name: string;
     closest_match: string;
     next_matches: string;
